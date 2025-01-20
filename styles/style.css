@@ -50,7 +50,7 @@
     display: flex;
     padding: 100px;
     margin-top: -50px;
-    gap: 100px;
+    gap: 150px;
 }
 .king{
     /* width:468px ;
@@ -68,7 +68,100 @@
     height: 30px;
 }
 
+/* line-3 */
 
+.standard{
+    background-image: url(../assets/bg.png);
+    width: 1200px;
+    height: 890px;
+}
+.Curriculum{
+    text-align: center;
+    font-size: 25px;
+   margin-top: 50px;
+}
+.skills-container{
+    display: flex;
+    gap: 25px;
+    padding: 100px;
+   
+}
+.skill-1{
+    height: 450px;
+     box-shadow: 0px 6px 35px 0px; 
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, #DEF5FF, white);
+}
+.skill-2{
+    height: 450px;
+    box-shadow: 0px 6px 35px 0px;
+    border-radius: 16px;
+    background-image: linear-gradient(#FFF4DC,#FFFF);
+}
+.skill-3{
+    height: 450px;
+    box-shadow: 0px 6px 35px 0px;
+    border-radius: 16px;
+    background-image: linear-gradient(#F2E8FF,#FFFF);
+}
+.skills-1{
+    margin-left: 80px;
+   margin-top: 40px;
+}
+.skills-2{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.skills-3{
+    text-align: center;
+    font-size: 16px;
+   margin-top: 40px;
+}
+.skills-4{
+    text-align: center;
+    font-size: 18px;
+   margin-top: 40px;
+}
+/* line-4 */
+.arrow{
+  justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-right: 300px;
+    margin-top: -180px;
+}
+.arrow1{
+    background-color: orange;
+    border-radius: 30px;
+
+}
+/* line-5 */
+.our-storics{
+    background-image: url(../assets/bg.png);
+}
+
+.stories{
+    background-image: linear-gradient(to top,#FFD68D,white);
+    display: flex;
+    gap: 30px;
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color: whitesmoke;
+}
+.icon-1{
+    box-shadow: 0px 6px 35px 0px; 
+    border-radius: 16px;
+    background-color: whitesmoke;
+}
+.icon-2{
+    box-shadow: 0px 6px 35px 0px; 
+    border-radius: 16px; 
+}
 
 
 
@@ -104,4 +197,61 @@
     .btn2{
         text-align: center;
     }
+    
+    .standard{
+         background-image: url(../assets/bg.png);
+         width: 357px;
+         height: 990px;
+    } 
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+        padding:40px;
+       
+    }
+    .Curriculum{
+        text-align: center;
+        font-size: 17px;
+       margin-top: -50px;
+    }
+    
+    .skill-1{
+        height: 450px;
+     box-shadow: 0px 6px 35px 0px; 
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, #DEF5FF, white);
+    }
+    .skill-2{
+        height: 450px;
+    box-shadow: 0px 6px 35px 0px;
+    border-radius: 16px;
+    background-image: linear-gradient(#FFF4DC,#FFFF);
+    }
+    .skill-3{
+        height: 450px;
+    box-shadow: 0px 6px 35px 0px;
+    border-radius: 16px;
+    background-image: linear-gradient(#F2E8FF,#FFFF);
+    }
+    .skills-2{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 40px;
+    }
+
+    .skills-3{
+    text-align: center;
+    font-size: 16px;
+   margin-top: 40px;
+    }
+    .skills-4{
+    text-align: center;
+    font-size: 18px;
+   margin-top: 40px;
+    }
+
+
+
+
 }
