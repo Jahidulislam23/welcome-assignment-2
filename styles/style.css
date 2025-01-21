@@ -90,19 +90,19 @@
     height: 450px;
      box-shadow: 0px 6px 35px 0px; 
     border-radius: 16px;
-    background-image: linear-gradient(to bottom, #DEF5FF, white);
+    background-image: linear-gradient(to bottom, #DEF5FF 5%, white 30%);
 }
 .skill-2{
     height: 450px;
     box-shadow: 0px 6px 35px 0px;
     border-radius: 16px;
-    background-image: linear-gradient(#FFF4DC,#FFFF);
+    background-image: linear-gradient(#FFF4DC 5%,#FFFF 30%);
 }
 .skill-3{
     height: 450px;
     box-shadow: 0px 6px 35px 0px;
     border-radius: 16px;
-    background-image: linear-gradient(#F2E8FF,#FFFF);
+    background-image: linear-gradient(#F2E8FF 5%,#FFFF 30%);
 }
 .skills-1{
     margin-left: 80px;
@@ -138,36 +138,96 @@
 
 }
 /* line-5 */
+.picture{
+    margin-left: 450px;
+    font-size: 35px;
+}
 .our-storics{
-    background-image: url(../assets/bg.png);
+ 
+
+    padding: 90px;
 }
 
-.stories{
-    background-image: linear-gradient(to top,#FFD68D,white);
+.stories{ 
+    background-image: url(../assets/bg.png);
+    background-color: #FFD68D;
     display: flex;
     gap: 30px;
+    width: 540px;
+    height: 630px;
+
 }
 .icon{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    background-color: whitesmoke;
+   background-color: #FFD68D;  
+     background-color: whitesmoke;
 }
 .icon-1{
     box-shadow: 0px 6px 35px 0px; 
     border-radius: 16px;
-    background-color: whitesmoke;
+    
+      background-color: #FFD68D; 
+      background-color:whitesmoke; 
+   
+
 }
 .icon-2{
     box-shadow: 0px 6px 35px 0px; 
     border-radius: 16px; 
+    background-color:whitesmoke;
 }
-
+.font-2{
+    padding: 15px;
+}
+.btn-3{
+    color:white;
+    background-color:#3CD8E8;
+    border-radius: 30px;
+    width: 170px;
+    height: 40px;
+    border-color: #3CD8E8;
+   
+}
+.november{
+    margin-top: -70px;
+    padding: 45px;
+   
+}
+.btn-4{
+    color: white;
+    background-color: #95B226;
+    border-radius: 30px;
+    width: 170px;
+    height: 35px;
+    border-color: #95B226 ;
+}
+.november-2{
+    margin-top: -175px;
+    padding: 30px;
+}
+.view{
+   margin-left: 450px;
+   margin-top: 60px;
+   width: 197px;
+   height: 50px;
+   color: white;
+   background-color: black;
+   border-radius: 16px;
+}
 
 
 
 
 @media screen and (max-width:576px) {
+    .logo1 .logo h1{
+        display: none;
+    }
+    .text-1{
+        display: none;
+    }
+    
     .hero{
     flex-direction: column-reverse;
     justify-content: center;
@@ -220,19 +280,19 @@
         height: 450px;
      box-shadow: 0px 6px 35px 0px; 
     border-radius: 16px;
-    background-image: linear-gradient(to bottom, #DEF5FF, white);
+    background-image: linear-gradient(to bottom, #DEF5FF 5%, white 30%);
     }
     .skill-2{
         height: 450px;
     box-shadow: 0px 6px 35px 0px;
     border-radius: 16px;
-    background-image: linear-gradient(#FFF4DC,#FFFF);
+    background-image: linear-gradient(#FFF4DC 5%,#FFFF 30%);
     }
     .skill-3{
         height: 450px;
     box-shadow: 0px 6px 35px 0px;
     border-radius: 16px;
-    background-image: linear-gradient(#F2E8FF,#FFFF);
+    background-image: linear-gradient(#F2E8FF 5%,#FFFF 30%);
     }
     .skills-2{
     text-align: center;
@@ -250,8 +310,26 @@
     font-size: 18px;
    margin-top: 40px;
     }
-
-
-
+    .arrow{
+        display: none;
+    }
+    .our-storics{
+        background-image: url(../assets/bg.png);
+        background-color: #FFD68D;
+        margin-top: 600px;
+    }
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+       gap: 100px;
+    }
+ 
+     /* .stories{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }  */
+        .icon-1{
+            display: none;
+        }
 
 }
